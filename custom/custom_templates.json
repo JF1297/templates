@@ -1,24 +1,24 @@
 [
   
   {
-    "title": "Anaconda try1",
-    "description": "command: /bin/bash -c \echo hello\ ",
+    "title": "Anaconda try1.1",
+    "description": "command: /bin/bash -c \"echo hello\" ",
     "logo": "https://raw.githubusercontent.com/JF1297/templates/master/custom/Anaconda_Logo.png",
     "image": "continuumio/anaconda3:latest",
     "command": "/bin/bash -c \"echo hello\"  "
   },
   
   {
-    "title": "Anaconda try2",
-    "description": "command: -it /bin/bash -c \echo hello\ ",
+    "title": "Anaconda try2.1",
+    "description": "command: -it /bin/bash -c \"echo hello\" ",
     "logo": "https://raw.githubusercontent.com/JF1297/templates/master/custom/Anaconda_Logo.png",
     "image": "continuumio/anaconda3:latest",
     "command": "-it /bin/bash -c \"echo hello\"  "
   },
   
   {
-    "title": "Anaconda try3",
-    "description": "command: -it -d /bin/bash -c \echo hello\ ",
+    "title": "Anaconda try3.1",
+    "description": "command: -it -d /bin/bash -c \"echo hello\" ",
     "logo": "https://raw.githubusercontent.com/JF1297/templates/master/custom/Anaconda_Logo.png",
     "image": "continuumio/anaconda3:latest",
     "command": "-it -d /bin/bash -c \"echo hello\"  "
