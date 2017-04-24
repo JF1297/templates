@@ -9,6 +9,14 @@
   },
   
   {
+    "title": "Anaconda try0.2",
+    "description": "command: -it /bin/bash",
+    "logo": "https://raw.githubusercontent.com/JF1297/templates/master/custom/Anaconda_Logo.png",
+    "image": "continuumio/anaconda3:latest",
+    "command": "-it /bin/bash"
+  },
+  
+  {
     "title": "Anaconda try1.1",
     "description": "command: /bin/bash -c \"echo hello\" ",
     "logo": "https://raw.githubusercontent.com/JF1297/templates/master/custom/Anaconda_Logo.png",
