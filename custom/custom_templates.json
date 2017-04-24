@@ -17,6 +17,14 @@
   },
   
   {
+    "title": "Python try0.1",
+    "description": "command: /bin/bash",
+    "logo": "https://raw.githubusercontent.com/JF1297/templates/master/custom/Python_Logo.png",
+    "image": "Python:latest",
+    "command": "/bin/bash"
+  },
+  
+  {
     "title": "Anaconda try1.1",
     "description": "command: /bin/bash -c \"echo hello\" ",
     "logo": "https://raw.githubusercontent.com/JF1297/templates/master/custom/Anaconda_Logo.png",
