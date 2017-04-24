@@ -8,6 +8,14 @@ Documentation is available [ReadTheDocs](http://portainer.readthedocs.io/en/late
 
 ## Portainer templates:
 
+Custom templates:
+
+* Anaconda3 (based on 'continuumio/anaconda3:latest')
+* Miniconda3 (based on 'continuumio/miniconda3:latest')
+
+
+Default templates:
+
 * Docker registry (based on `registry:latest`)
 * Nginx (based on `nginx:latest`)
 * Httpd (based on `httpd:latest`)
