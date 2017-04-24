@@ -1,10 +1,10 @@
 
 # Custom App Templates
 
-[![Documentation Status]
+[![Documentation Status] (https://readthedocs.org/projects/portainer/badge/?version=latest)]
 
 
-(https://readthedocs.org/projects/portainer/badge/?version=latest)](http://portainer.readthedocs.io/en/latest/?badge=latest)
+(http://portainer.readthedocs.io/en/latest/?badge=latest)
 
 This repository hosts the un-official templates (**'Apps Templates'**) definitions for portainer.
 
