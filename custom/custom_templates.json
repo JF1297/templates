@@ -2,10 +2,10 @@
   
   {
     "title": "Anaconda",
-    "description": "Full Anaconda 3 - version 9",
+    "description": "Full Anaconda 3 - version 10",
     "logo": "https://raw.githubusercontent.com/JF1297/templates/master/custom/Anaconda_Logo.png",
-    "image": "-d -it continuumio/anaconda3:latest",
-    "command": "/bin/bash -c \"echo hello\""
+    "image": "continuumio/anaconda3:latest",
+    "command": "/bin/bash -c \"python""
   },
   
   {
