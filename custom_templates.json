@@ -1,7 +1,7 @@
 [
   {
     "title": "Registry",
-    "description": "Docker image registry",
+    "description": "custom custom custom",
     "logo": "https://cloudinovasi.id/assets/img/logos/registry.png",
     "image": "registry:latest",
     "ports": [
