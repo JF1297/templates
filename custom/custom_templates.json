@@ -3,12 +3,11 @@
   {
     "title": "Anaconda",
     "description": "Full Anaconda",
-    "logo": "https://upload.wikimedia.org/wikipedia/en/c/cd/Anaconda_Logo.png",
-    "image": "registry:latest",
+    "logo": "https://raw.githubusercontent.com/JF1297/templates/master/custom/Anaconda_Logo.png",
+    "image": "2f12b7e5bd80",
     "ports": [
-      "5000/tcp"
-    ],
-    "volumes": ["/var/lib/registry"]
+      "5500/tcp"
+    ]
   },
   
   {
