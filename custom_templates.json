@@ -1,7 +1,19 @@
 [
+  
+  {
+    "title": "Anaconda",
+    "description": "Full Anaconda",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/c/cd/Anaconda_Logo.png",
+    "image": "registry:latest",
+    "ports": [
+      "5000/tcp"
+    ],
+    "volumes": ["/var/lib/registry"]
+  },
+  
   {
     "title": "Registry",
-    "description": "this is my second edit",
+    "description": "Docker image registry",
     "logo": "https://cloudinovasi.id/assets/img/logos/registry.png",
     "image": "registry:latest",
     "ports": [
