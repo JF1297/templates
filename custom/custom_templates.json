@@ -20,7 +20,7 @@
     "title": "Python try0.1",
     "description": "command: /bin/bash",
     "logo": "https://raw.githubusercontent.com/JF1297/templates/master/custom/Python_Logo.png",
-    "image": "Python:latest",
+    "image": "python:latest",
     "command": "/bin/bash"
   },
   
