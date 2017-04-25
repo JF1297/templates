@@ -2,23 +2,24 @@
   
  
   {
-    "title": "Python try0.2",
+    "title": "Python 3",
     "description": "command: bin/bash echo echo",
     "logo": "https://raw.githubusercontent.com/JF1297/templates/master/custom/Python_Logo.png",
     "image": "python:latest",
-    "command": "/bin/bash -c \"echo hello; echo hello\" "
+    "command": "/bin/bash -c \"echo hello; tail -F /etc/passwd \"  "
   },
   
   {
-    "title": "Python try1.2",
-    "description": "command: bin/bash echo hello tail -5 /etc/passwd  ",
-    "logo": "https://raw.githubusercontent.com/JF1297/templates/master/custom/Anaconda_Logo.png",
-    "image": "continuumio/anaconda3:latest",
-    "command": "/bin/bash -c \"echo hello; tail -5 /etc/passwd \"  "
+    "title": "Python 3.6.1 slim",
+    "description": "command: bin/bash echo echo",
+    "logo": "https://raw.githubusercontent.com/JF1297/templates/master/custom/Python_Logo.png",
+    "image": "python:3.6.1-slim",
+    "command": "/bin/bash -c \"echo hello; tail -F /etc/passwd \"  "
   },
   
+  
   {
-    "title": "Anaconda try0.1",
+    "title": "Anaconda Bash",
     "description": "this works: /bin/bash -c echo hello; tail -F /etc/passwd ",
     "logo": "https://raw.githubusercontent.com/JF1297/templates/master/custom/Anaconda_Logo.png",
     "image": "continuumio/anaconda3:latest",
@@ -26,7 +27,7 @@
   },
   
   {
-    "title": "Anaconda try1.1",
+    "title": "Anaconda Jupyter Notebook",
     "description": "command: -it -d /bin/bash -c \"echo hello\" ",
     "logo": "https://raw.githubusercontent.com/JF1297/templates/master/custom/Anaconda_Logo.png",
     "image": "continuumio/anaconda3:latest",
