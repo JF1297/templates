@@ -6,7 +6,7 @@
     "description": "command: bin/bash echo echo",
     "logo": "https://raw.githubusercontent.com/JF1297/templates/master/custom/Python_Logo.png",
     "image": "python:latest",
-    "command": "/bin/bash -c \"echo hello\" && -c \"echo hello\ "
+    "command": "/bin/bash -c \"echo hello\" && -c \"echo hello\"
   },
   
   {
