@@ -6,7 +6,7 @@
     "description": "command: bin/bash echo echo",
     "logo": "https://raw.githubusercontent.com/JF1297/templates/master/custom/Python_Logo.png",
     "image": "python:latest",
-    "command": "/bin/bash -c \"echo hello\" && \"echo hello\" "
+    "command": "/bin/bash -c \"echo hello\"; \"echo hello\" "
   },
   
   {
@@ -14,7 +14,7 @@
     "description": "command: bin/bash echo hello tail -5 /etc/passwd  ",
     "logo": "https://raw.githubusercontent.com/JF1297/templates/master/custom/Anaconda_Logo.png",
     "image": "continuumio/anaconda3:latest",
-    "command": "/bin/bash -c \"echo hello\" && \"tail -5 /etc/passwd\"  "
+    "command": "/bin/bash -c \"echo hello\"; \"tail -5 /etc/passwd\"  "
   },
   
   {
@@ -22,7 +22,7 @@
     "description": "/bin/bash -c echo hello tail -F /etc/passwd ",
     "logo": "https://raw.githubusercontent.com/JF1297/templates/master/custom/Anaconda_Logo.png",
     "image": "continuumio/anaconda3:latest",
-    "command": "/bin/bash -c \"echo hello\" && \"tail -F /etc/passwd\"  "
+    "command": "/bin/bash -c \"echo hello\"; \"tail -F /etc/passwd\"  "
   },
   
   {
@@ -30,7 +30,7 @@
     "description": "command: -it -d /bin/bash -c \"echo hello\" ",
     "logo": "https://raw.githubusercontent.com/JF1297/templates/master/custom/Anaconda_Logo.png",
     "image": "continuumio/anaconda3:latest",
-    "command": "-it -d /bin/bash -c \"echo hello\"  "
+    "command": "/bin/bash \"echo hello\"  "
   },
   
   
