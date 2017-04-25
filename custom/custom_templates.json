@@ -18,21 +18,26 @@
   },
   
   {
-    "title": "Python try2.2",
-    "description": "/bin/bash -c echo hello tail -F /etc/passwd ",
+    "title": "Anaconda try0.1",
+    "description": "this works: /bin/bash -c echo hello; tail -F /etc/passwd ",
     "logo": "https://raw.githubusercontent.com/JF1297/templates/master/custom/Anaconda_Logo.png",
     "image": "continuumio/anaconda3:latest",
     "command": "/bin/bash -c \"echo hello; tail -F /etc/passwd \"  "
   },
   
   {
-    "title": "Anaconda try3.1",
+    "title": "Anaconda try1.1",
     "description": "command: -it -d /bin/bash -c \"echo hello\" ",
     "logo": "https://raw.githubusercontent.com/JF1297/templates/master/custom/Anaconda_Logo.png",
     "image": "continuumio/anaconda3:latest",
-    "command": "/bin/bash \"echo hello\"  "
+    "ports": [
+      "8888/tcp"
+    ],
+    "command": "/bin/bash -c  \"/opt/conda/bin/conda install jupyter -y --quiet && mkdir /opt/notebooks && /opt/conda/bin/jupyter notebook --notebook-dir=/opt/notebooks --ip='*' --port=8888 --no-browser\"        "
   },
   
+
+
   
   {
     "title": "Registry",
