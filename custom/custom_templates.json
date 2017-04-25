@@ -2,27 +2,27 @@
   
  
   {
-    "title": "Python try0.1",
+    "title": "Python try0.2",
     "description": "command: bin/bash echo echo",
     "logo": "https://raw.githubusercontent.com/JF1297/templates/master/custom/Python_Logo.png",
     "image": "python:latest",
-    "command": "/bin/bash -c \"echo hello\"; \"echo hello\" "
+    "command": "/bin/bash -c \"echo hello; echo hello\" "
   },
   
   {
-    "title": "Python try1.1",
+    "title": "Python try1.2",
     "description": "command: bin/bash echo hello tail -5 /etc/passwd  ",
     "logo": "https://raw.githubusercontent.com/JF1297/templates/master/custom/Anaconda_Logo.png",
     "image": "continuumio/anaconda3:latest",
-    "command": "/bin/bash -c \"echo hello\"; \"tail -5 /etc/passwd\"  "
+    "command": "/bin/bash -c \"echo hello; tail -5 /etc/passwd \"  "
   },
   
   {
-    "title": "Python try2.1",
+    "title": "Python try2.2",
     "description": "/bin/bash -c echo hello tail -F /etc/passwd ",
     "logo": "https://raw.githubusercontent.com/JF1297/templates/master/custom/Anaconda_Logo.png",
     "image": "continuumio/anaconda3:latest",
-    "command": "/bin/bash -c \"echo hello\"; \"tail -F /etc/passwd\"  "
+    "command": "/bin/bash -c \"echo hello; tail -F /etc/passwd \"  "
   },
   
   {
