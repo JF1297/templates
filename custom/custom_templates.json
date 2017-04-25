@@ -18,26 +18,26 @@
   
   {
     "title": "Python try0.1",
-    "description": "command: /bin/bash",
+    "description": "command: /bin/bash -c \"echo hello\" & -c \"echo hello\ ",
     "logo": "https://raw.githubusercontent.com/JF1297/templates/master/custom/Python_Logo.png",
     "image": "python:latest",
-    "command": "/bin/bash"
+    "command": "/bin/bash -c \"echo hello\" && -c \"echo hello\ "
   },
   
   {
-    "title": "Anaconda try1.1",
-    "description": "command: /bin/bash -c \"echo hello\" ",
+    "title": "Python try1.1",
+    "description": "command: /bin/bash -c \"echo hello\" && -c \"tail -5 /etc/passwd\"  ",
     "logo": "https://raw.githubusercontent.com/JF1297/templates/master/custom/Anaconda_Logo.png",
     "image": "continuumio/anaconda3:latest",
-    "command": "/bin/bash -c \"echo hello\"  "
+    "command": "/bin/bash -c \"echo hello\" && -c \"tail -5 /etc/passwd\"  "
   },
   
   {
-    "title": "Anaconda try2.1",
-    "description": "command: -it /bin/bash -c \"echo hello\" ",
+    "title": "Python try2.1",
+    "description": "/bin/bash -c \"echo hello\" && -c \"tail -F /etc/passwd\"  ",
     "logo": "https://raw.githubusercontent.com/JF1297/templates/master/custom/Anaconda_Logo.png",
     "image": "continuumio/anaconda3:latest",
-    "command": "-it /bin/bash -c \"echo hello\"  "
+    "command": "/bin/bash -c \"echo hello\" && -c \"tail -F /etc/passwd\"  "
   },
   
   {
